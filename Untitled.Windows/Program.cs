@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Untitled.Windows
+namespace Hydra
 {
 #if WINDOWS || LINUX
     /// <summary>
