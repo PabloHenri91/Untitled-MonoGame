@@ -5,6 +5,8 @@ using System.Linq;
 
 using AppKit;
 using Foundation;
+
+using Hydra;
 #endregion
 
 namespace Untitled.macOS
