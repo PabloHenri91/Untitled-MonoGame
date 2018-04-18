@@ -58,6 +58,11 @@ namespace Hydra
         {
             RunGame();
         }
+
+        public override void OnResignActivation(UIApplication application)
+        {
+            MemoryCard.current.saveGame();
+        }
 #endif
 	}
 

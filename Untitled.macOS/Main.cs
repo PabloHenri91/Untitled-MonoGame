@@ -11,7 +11,7 @@ using Hydra;
 
 namespace Untitled.macOS
 {
-	static class Program
+    class Program : NSApplicationDelegate
 	{
 		/// <summary>
 		/// The main entry point for the application.
@@ -19,11 +19,19 @@ namespace Untitled.macOS
 		static void Main(string[] args)
 		{
 			NSApplication.Init();
+            NSApplication.SharedApplication.Delegate = new Program();
 
 			using (var game = new Game1())
 			{
 				game.Run();
 			}
+
+            MemoryCard.current.saveGame(true);
+        }
+
+		public override void WillResignActive(NSNotification notification)
+		{
+            MemoryCard.current.saveGame();
 		}
 	}
 }
