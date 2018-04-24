@@ -3,9 +3,9 @@ using Android.Content.PM;
 using Android.OS;
 using Android.Views;
 
-namespace Untitled.Android
+namespace Hydra
 {
-    [Activity(Label = "Untitled.Android"
+    [Activity(Label = "@string/ApplicationName"
         , MainLauncher = true
         , Icon = "@drawable/icon"
         , Theme = "@style/Theme.Splash"
