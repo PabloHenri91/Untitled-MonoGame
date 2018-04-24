@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>project.MonoGame.Untitled.macOS</string>
 	<key>CFBundleName</key>
-	<string>Untitled.macOS</string>
+	<string>Untitled</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>
