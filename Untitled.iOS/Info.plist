@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>Untitled.iOS</string>
+	<string>Untitled</string>
 	<key>CFBundleIdentifier</key>
 	<string>project.MonoGame.Untitled.iOS</string>
 	<key>MinimumOSVersion</key>
