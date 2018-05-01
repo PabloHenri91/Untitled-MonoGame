@@ -13,12 +13,12 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin SpriteFont/SpriteFont.spritefont
+#begin SpriteFont/SpriteFont32.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Color
-/build:SpriteFont/SpriteFont.spritefont
+/build:SpriteFont/SpriteFont32.spritefont
 
 #begin Texture2D/null.png
 /importer:TextureImporter
