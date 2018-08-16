@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Untitled.tvOS", "Untitled.tvOS\Untitled.tvOS.csproj", "{2AF36FBE-2205-4BE1-A262-80ABE84670FB}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Untitled", "Untitled\Untitled.shproj", "{2129B7FF-F175-4F48-8A30-4409F57C141B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Hydra", "..\hydra\Hydra.shproj", "{1FE6106F-E823-499B-9206-285D53FD4AF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator

@@ -11,7 +11,7 @@ using UIKit;
 #endif
 #endregion
 
-namespace Untitled.tvOS
+namespace Hydra
 {
 #if __IOS__ || __TVOS__
     [Register("AppDelegate")]
