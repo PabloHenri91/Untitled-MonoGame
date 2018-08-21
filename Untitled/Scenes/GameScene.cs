@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 
 namespace Hydra.Scenes
 {
-    public class GameScene : SKScene
+    class GameScene : SKScene
     {
         Label label;
 
