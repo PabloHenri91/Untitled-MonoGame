@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Untitled</string>
 	<key>CFBundleIdentifier</key>
-	<string>project.MonoGame.Untitled.iOS</string>
+	<string>com.companyname.Untitled.iOS</string>
 	<key>MinimumOSVersion</key>
 	<string>7.0</string>
 	<key>UISupportedInterfaceOrientations</key>

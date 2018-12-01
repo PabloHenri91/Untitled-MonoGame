@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>project.MonoGame.Untitled.macOS</string>
+	<string>com.companyname.Untitled.macOS</string>
 	<key>CFBundleName</key>
 	<string>Untitled</string>
 	<key>CFBundleVersion</key>
