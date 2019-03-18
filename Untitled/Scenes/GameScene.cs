@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Hydra.Scenes
 {
@@ -14,7 +15,9 @@ namespace Hydra.Scenes
 		{
             base.load();
 
-            label = new Label("Hello, World!");
+            DisplayMode displayMode = Game1.current.graphicsDeviceManager.GraphicsDevice.DisplayMode;
+
+            label = new Label($"{displayMode.Width},{displayMode.Height}");
             label.alpha = 0.0f;
             label.run(SKAction.fadeIn(2.0f));
 
