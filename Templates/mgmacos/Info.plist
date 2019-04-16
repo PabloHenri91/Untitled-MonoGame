@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.companyname.Untitled.macOS</string>
+	<string>project.MonoGame.Untitled.MacOS</string>
 	<key>CFBundleName</key>
-	<string>Untitled</string>
+	<string>Untitled.MacOS</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSMinimumSystemVersion</key>
-	<string>10.9</string>
+	<string>10.7</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSMainNibFile</key>
