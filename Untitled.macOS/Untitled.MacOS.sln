@@ -1,0 +1,21 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Untitled.MacOS", "Untitled.MacOS.csproj", "{3A23AA06-840E-4419-9CA5-6CA6A633EB1F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Hydra", "..\..\Hydra-MonoGame\Hydra.shproj", "{1FE6106F-E823-499B-9206-285D53FD4AF0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Untitled", "..\Untitled\Untitled.shproj", "{3E580FD1-6296-45CF-B9C6-51EDE8C8E961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A23AA06-840E-4419-9CA5-6CA6A633EB1F}.Debug|x86.ActiveCfg = Debug|x86
+		{3A23AA06-840E-4419-9CA5-6CA6A633EB1F}.Debug|x86.Build.0 = Debug|x86
+		{3A23AA06-840E-4419-9CA5-6CA6A633EB1F}.Release|x86.ActiveCfg = Release|x86
+		{3A23AA06-840E-4419-9CA5-6CA6A633EB1F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
