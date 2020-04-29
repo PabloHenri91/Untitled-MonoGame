@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;XNA</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lidgren.Network.Core" Version="8.0.30703" />
+    <PackageReference Include="MonoGame.Framework.WindowsDX.Core" Version="3.8.*" />
+    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.*" />
+    <PackageReference Include="Realm" Version="4.3.0" />
+  </ItemGroup>
+
+  <Import Project="..\Untitled\Untitled.projitems" Label="Shared" />
+
+  <Import Project="..\..\Hydra-MonoGame\Hydra.projitems" Label="Shared" />
+
+</Project>
+

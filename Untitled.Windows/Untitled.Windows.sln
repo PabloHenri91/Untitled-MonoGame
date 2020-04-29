@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Untitled.Windows", "Untitled.Windows.csproj", "{D0616F34-8E26-4B01-B107-BED4174948A2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Untitled", "..\Untitled\Untitled.shproj", "{2129B7FF-F175-4F48-8A30-4409F57C141B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Hydra", "..\..\Hydra-MonoGame\Hydra.shproj", "{1FE6106F-E823-499B-9206-285D53FD4AF0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\Hydra-MonoGame\Hydra.projitems*{1fe6106f-e823-499b-9206-285d53fd4af0}*SharedItemsImports = 13
+		..\Untitled\Untitled.projitems*{2129b7ff-f175-4f48-8a30-4409f57c141b}*SharedItemsImports = 13
+		..\..\Hydra-MonoGame\Hydra.projitems*{d0616f34-8e26-4b01-b107-bed4174948a2}*SharedItemsImports = 5
+		..\Untitled\Untitled.projitems*{d0616f34-8e26-4b01-b107-bed4174948a2}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0616F34-8E26-4B01-B107-BED4174948A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0616F34-8E26-4B01-B107-BED4174948A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0616F34-8E26-4B01-B107-BED4174948A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0616F34-8E26-4B01-B107-BED4174948A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14F979E1-4B1D-43FA-A35D-143FBC92395F}
+	EndGlobalSection
+EndGlobal
